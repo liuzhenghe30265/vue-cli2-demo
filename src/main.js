@@ -4,6 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import VideoPlayer from 'vue-video-player'
+import 'video.js/dist/video-js.css'
+import 'videojs-flash'
+Vue.use(VideoPlayer)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
